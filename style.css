@@ -1,0 +1,180 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input,
+button {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+/* Left Side */
+
+.left {
+  flex-basis: 40%;
+  height: 100%;
+  display: flex;
+  flex-grow: 1;
+  position: relative;
+}
+
+.plants {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.odin {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 15%;
+  background-color: black;
+  margin-top: 150px;
+  opacity: 0.5;
+}
+
+.odin_image {
+  width: 100px;
+  height: auto;
+}
+
+/* Right Side */
+
+h2 {
+  font-size: 24px;
+  padding-left: 10px;
+}
+
+header {
+  padding: 10px;
+}
+
+.form-header {
+  grid-column: span 2;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+}
+
+footer {
+  padding: 20px;
+}
+
+.right {
+  flex-grow: 1;
+  flex-basis: 60%;
+  height: 100%;
+  background-color: #f9fafb;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+
+.form-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 100%;
+  padding: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  align-items: start;
+}
+
+.row {
+  display: contents;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+label {
+  font-weight: bold;
+}
+
+button {
+  grid-column: span 2;
+}
+
+input {
+  border: 1px solid #e5e7eb;
+  height: 40px;
+  width: 80%;
+  border-radius: 5px;
+  padding: 5px;
+  outline: none;
+}
+
+input:invalid:focus {
+  outline: red;
+}
+
+input:focus {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  outline: none;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+button {
+  background-color: #596d48;
+  padding: 10px;
+  width: 200px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  filter: brightness(90%);
+}
+
+.login {
+  color: #596d48;
+}
+
+.login:hover {
+  text-decoration: underline;
+}
