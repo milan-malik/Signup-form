@@ -16,6 +16,8 @@ This project is a simple signup form built with HTML and CSS. It's designed to c
   - Password (with confirmation)
 - A nature-themed background with a touch of green to create a relaxed atmosphere.
 - Invites users to create an account with an engaging message.
+- Hover Effects
+- Form Validation
 
 ## Technologies Used
 
