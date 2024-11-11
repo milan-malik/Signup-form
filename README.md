@@ -23,3 +23,6 @@ This project is a simple signup form built with HTML and CSS. It's designed to c
 
 - **HTML**: For the structure of the form.
 - **CSS**: For styling, including background image, layout, and form alignment. Flexbox and grid used.
+
+## Future Improvements
+- Make website mobile friendly
