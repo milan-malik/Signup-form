@@ -142,7 +142,7 @@ input {
 }
 
 input:invalid:focus {
-  outline: red;
+  border: 1px solid red;
 }
 
 input:focus {
