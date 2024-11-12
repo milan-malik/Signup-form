@@ -6,6 +6,9 @@ This project is a simple signup form built with HTML and CSS. It's designed to c
 
 <img width="1422" alt="Screenshot 2024-11-11 at 16 46 10" src="https://github.com/user-attachments/assets/8c0765e2-8e70-4091-9414-e25ebb86213d">
 
+## Live Preview
+https://milan-malik.github.io/Signup-form/
+
 ## Features
 
 - **Input Fields**: Captures essential information including:
